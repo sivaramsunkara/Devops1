@@ -1,0 +1,6 @@
+resource "aws_vpc" "amazonvpc1" {
+    cidr_block = "10.50.0.0/16"
+    tags = {
+      name = "devvpc"
+    }
+}
